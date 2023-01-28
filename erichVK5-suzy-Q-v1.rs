@@ -24,365 +24,9 @@ ha:cschem-sheet-v1 {
 			ha:pen.busterm-primary { shape=round; size=1500; color=#222222; font_height=3000; font_family=sans; font_style=bold; }
 			ha:pen.busterm-secondary { shape=round; size=1500; color=#555555; font_height=3000; font_family=sans; }
 			ha:pen.junction { shape=round; size=1000; color=#2222bb; font_height=3000; font_family=sans; }
-			ha:group.34 {
-				uuid=MdqT+zstH2BY0fhajaEAAAKk;
-				x=180000; y=164000;
-				li:objects {
-					ha:polygon.1 {
-						li:outline {
-							ha:line { x1=32000; y1=-64000; x2=32000; y2=4000; }
-							ha:line { x1=32000; y1=4000; x2=0; y2=4000; }
-							ha:line { x1=0; y1=4000; x2=0; y2=-64000; }
-							ha:line { x1=0; y1=-64000; x2=32000; y2=-64000; }
-						}
-						stroke=sym-decor;
-					}
-					ha:group.2 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKl; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAB;
-						mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=Tx1plus
-							pinnum=A2
-							role=terminal
-						}
-					}
-					ha:group.3 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKm; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAC;
-						x=0; y=-4000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=Tx1minus
-							pinnum=A3
-							role=terminal
-						}
-					}
-					ha:group.4 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKn; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAD;
-						x=0; y=-8000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=CC1A
-							pinnum=A5
-							role=terminal
-						}
-					}
-					ha:group.5 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKo; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAE;
-						x=0; y=-12000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=DplusA
-							pinnum=A6
-							role=terminal
-						}
-					}
-					ha:group.6 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKp; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAF;
-						x=0; y=-16000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=DminusA
-							pinnum=A7
-							role=terminal
-						}
-					}
-					ha:group.7 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKq; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAG;
-						x=0; y=-20000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=SBU1A
-							pinnum=A8
-							role=terminal
-						}
-					}
-					ha:group.8 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKr; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAH;
-						x=0; y=-24000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=Rx2minus
-							pinnum=A10
-							role=terminal
-						}
-					}
-					ha:group.9 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKs; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAI;
-						x=0; y=-28000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=Rx2plus
-							pinnum=A11
-							role=terminal
-						}
-					}
-					ha:group.10 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKt; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAJ;
-						x=0; y=-32000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=Tx2plus
-							pinnum=B2
-							role=terminal
-						}
-					}
-					ha:group.11 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKu; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAK;
-						x=0; y=-36000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=Tx2minus
-							pinnum=B3
-							role=terminal
-						}
-					}
-					ha:group.12 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKv; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAL;
-						x=0; y=-40000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=CC2B
-							pinnum=B5
-							role=terminal
-						}
-					}
-					ha:group.13 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKw; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAM;
-						x=0; y=-44000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=DplusB
-							pinnum=B6
-							role=terminal
-						}
-					}
-					ha:group.14 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKx; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAN;
-						x=0; y=-48000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=DminusB
-							pinnum=B7
-							role=terminal
-						}
-					}
-					ha:group.15 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKy; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAO;
-						x=0; y=-52000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=SBU2B
-							pinnum=B8
-							role=terminal
-						}
-					}
-					ha:group.16 {
-						uuid=MdqT+zstH2BY0fhajaEAAAKz; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAP;
-						x=0; y=-56000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=Rx1minusB
-							pinnum=B10
-							role=terminal
-						}
-					}
-					ha:group.17 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK0; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAQ;
-						x=0; y=-60000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=Rx1plusB
-							pinnum=B11
-							role=terminal
-						}
-					}
-					ha:group.18 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK1; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAR;
-						x=28000; y=4000; rot=90.000000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=VbusA4
-							pinnum=A4
-							role=terminal
-						}
-					}
-					ha:group.19 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK2; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAS;
-						x=24000; y=4000; rot=90.000000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=VbusA9
-							pinnum=A9
-							role=terminal
-						}
-					}
-					ha:group.20 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK3; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAT;
-						x=20000; y=4000; rot=90.000000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=VbusB4
-							pinnum=B4
-							role=terminal
-						}
-					}
-					ha:group.21 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK4; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAU;
-						x=16000; y=4000; rot=90.000000; mirx=1;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=VbusB9
-							pinnum=B9
-							role=terminal
-						}
-					}
-					ha:group.22 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK5; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAV;
-						x=28000; y=-64000; rot=-90.000000;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=gndA1
-							pinnum=A1
-							role=terminal
-						}
-					}
-					ha:group.23 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK6; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAX;
-						x=24000; y=-64000; rot=-90.000000;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=gndA12
-							pinnum=A12
-							role=terminal
-						}
-					}
-					ha:group.24 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK7; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAY;
-						x=20000; y=-64000; rot=-90.000000;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=gndB1
-							pinnum=B1
-							role=terminal
-						}
-					}
-					ha:group.25 {
-						uuid=MdqT+zstH2BY0fhajaEAAAK8; src_uuid=1/wP+GjcBVzyaNDBLpAAAAAZ;
-						x=16000; y=-64000; rot=-90.000000;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
-							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
-							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
-						}
-						ha:attrib {
-							name=gndB12
-							pinnum=B12
-							role=terminal
-						}
-					}
-					ha:text.26 { x1=0; y1=-68000; dyntext=1; stroke=sym-primary; text=%../A.name%; floater=1; }
-				}
-				ha:attrib {
-					name=USBC
-					role=symbol
-				}
-			}
 			ha:group.35 {
 				uuid=MdqT+zstH2BY0fhajaEAAAK9;
-				x=56000; y=0;
+				x=64000; y=0;
 				li:objects {
 					ha:line.1 { x1=140000; y1=176000; x2=152000; y2=176000; stroke=wire; }
 					ha:line.2 { x1=152000; y1=176000; x2=152000; y2=172000; stroke=wire; }
@@ -397,56 +41,9 @@ ha:cschem-sheet-v1 {
 					ha:role = { value=wire-net; prio=0; }
 				}
 			}
-			ha:group.40 {
-				uuid=MdqT+zstH2BY0fhajaEAAAK+;
-				x=56000; y=0;
-				li:objects {
-					ha:line.1 { x1=140000; y1=88000; x2=140000; y2=96000; stroke=wire; }
-					ha:line.2 { x1=140000; y1=92000; x2=152000; y2=92000; stroke=wire; }
-					ha:line.3 { x1=140000; y1=92000; x2=140000; y2=92000; stroke=junction; }
-					ha:line.4 { x1=152000; y1=92000; x2=152000; y2=96000; stroke=wire; }
-					ha:line.5 { x1=148000; y1=92000; x2=148000; y2=96000; stroke=wire; }
-					ha:line.6 { x1=148000; y1=92000; x2=148000; y2=92000; stroke=junction; }
-					ha:line.7 { x1=144000; y1=92000; x2=144000; y2=96000; stroke=wire; }
-					ha:line.8 { x1=144000; y1=92000; x2=144000; y2=92000; stroke=junction; }
-				}
-				ha:attrib {
-					ha:role = { value=wire-net; prio=0; }
-				}
-			}
-			ha:group.45 {
-				uuid=MdqT+zstH2BY0fhajaEAAALD; src_uuid=iNOQfJpO6hT/HFDFGjoAAABm;
-				x=196000; y=88000;
-				li:objects {
-					ha:group.1 {
-						uuid=MdqT+zstH2BY0fhajaEAAALE; src_uuid=iNOQfJpO6hT/HFDFGjoAAABn;
-						rot=90.000000;
-						li:objects {
-							ha:line.1 { x1=0; y1=0; x2=-4000; y2=0; stroke=term-decor; }
-						}
-						ha:attrib {
-							ha:name = { value=1; prio=220; }
-							role=terminal
-						}
-					}
-					ha:line.2 { x1=-1500; y1=-5000; x2=1500; y2=-5000; stroke=sym-decor; }
-					ha:line.3 { x1=-500; y1=-6000; x2=500; y2=-6000; stroke=sym-decor; }
-					ha:line.4 { x1=-2500; y1=-4000; x2=2500; y2=-4000; stroke=sym-decor; }
-				}
-				ha:attrib {
-					-sym-copyright=(C) 2022 Tibor 'Igor2' Palinkas
-					-sym-license-dist=GPLv2+
-					-sym-license-use=Public Domain
-					-sym-source=sch-rnd default symbol lib
-					li:connect {
-						{1:GND}
-					}
-					role=symbol
-				}
-			}
 			ha:group.47 {
 				uuid=MdqT+zstH2BY0fhajaEAAALJ; src_uuid=iNOQfJpO6hT/HFDFGjoAAAB6;
-				x=196000; y=180000;
+				x=204000; y=180000;
 				li:objects {
 					ha:group.1 {
 						uuid=MdqT+zstH2BY0fhajaEAAALK; src_uuid=iNOQfJpO6hT/HFDFGjoAAAB7;
@@ -675,66 +272,6 @@ ha:cschem-sheet-v1 {
 					ha:role = { value=wire-net; prio=0; }
 				}
 			}
-			ha:connection.65 {
-				li:conn {
-					/2/35/2
-					/2/34/18/1
-				}
-			}
-			ha:connection.66 {
-				li:conn {
-					/2/35/3
-					/2/34/19/1
-				}
-			}
-			ha:connection.67 {
-				li:conn {
-					/2/35/5
-					/2/34/20/1
-				}
-			}
-			ha:connection.68 {
-				li:conn {
-					/2/35/8
-					/2/34/21/1
-				}
-			}
-			ha:connection.69 {
-				li:conn {
-					/2/40/1
-					/2/34/25/1
-				}
-			}
-			ha:connection.70 {
-				li:conn {
-					/2/40/4
-					/2/34/22/1
-				}
-			}
-			ha:connection.71 {
-				li:conn {
-					/2/40/5
-					/2/34/23/1
-				}
-			}
-			ha:connection.72 {
-				li:conn {
-					/2/40/7
-					/2/34/24/1
-				}
-			}
-			ha:connection.73 {
-				li:conn {
-					/2/45/1/1
-					/2/40/1
-				}
-			}
-			ha:connection.74 {
-				li:conn {
-					/2/47/1/1
-					/2/35/8
-				}
-			}
 			ha:connection.77 {
 				li:conn {
 					/2/56/1
@@ -747,22 +284,10 @@ ha:cschem-sheet-v1 {
 					/2/50/2/1
 				}
 			}
-			ha:connection.79 {
-				li:conn {
-					/2/59/1
-					/2/34/12/1
-				}
-			}
 			ha:connection.80 {
 				li:conn {
 					/2/59/1
 					/2/50/1/1
-				}
-			}
-			ha:connection.81 {
-				li:conn {
-					/2/62/1
-					/2/34/4/1
 				}
 			}
 			ha:group.85 {
@@ -774,12 +299,6 @@ ha:cschem-sheet-v1 {
 					ha:role = { value=wire-net; prio=0; }
 				}
 			}
-			ha:connection.86 {
-				li:conn {
-					/2/34/15/1
-					/2/85/4
-				}
-			}
 			ha:group.87 {
 				uuid=MdqT+zstH2BY0fhajaEAAALj;
 				li:objects {
@@ -787,18 +306,6 @@ ha:cschem-sheet-v1 {
 				}
 				ha:attrib {
 					ha:role = { value=wire-net; prio=0; }
-				}
-			}
-			ha:connection.88 {
-				li:conn {
-					/2/34/6/1
-					/2/87/1
-				}
-			}
-			ha:connection.92 {
-				li:conn {
-					/2/34/7/1
-					/2/275/2
 				}
 			}
 			ha:group.94 {
@@ -957,7 +464,7 @@ ha:cschem-sheet-v1 {
 				}
 				ha:attrib {
 					footprint=connector(1,2)
-					name=JMP2
+					name=JMP0
 					role=symbol
 				}
 			}
@@ -1241,6 +748,7 @@ ha:cschem-sheet-v1 {
 				ha:attrib {
 					-symbol-generator=boxsym-rnd
 					device=USBB
+					footprint=USB_A_PTH_Molex.rf
 					name=ttyUSB0
 					role=symbol
 				}
@@ -1347,6 +855,7 @@ ha:cschem-sheet-v1 {
 				ha:attrib {
 					-symbol-generator=boxsym-rnd
 					device=USBB
+					footprint=USB_A_PTH_Molex.rf
 					name=ttyUSB1
 					role=symbol
 				}
@@ -1447,10 +956,657 @@ ha:cschem-sheet-v1 {
 					/2/263/2/1
 				}
 			}
-			ha:connection.279 {
+			ha:group.280 {
+				uuid=gR6xY80BfSWB9yRoDXwAAABv; src_uuid=K6J/+nCrKSAGXQe5L5QAAABT;
+				x=200000; y=132000; mirx=1;
+				li:objects {
+					ha:polygon.1 {
+						li:outline {
+							ha:line { x1=-20000; y1=-32000; x2=-20000; y2=36000; }
+							ha:line { x1=-20000; y1=36000; x2=20000; y2=36000; }
+							ha:line { x1=20000; y1=36000; x2=20000; y2=-32000; }
+							ha:line { x1=20000; y1=-32000; x2=-20000; y2=-32000; }
+						}
+						stroke=sym-decor;
+					}
+					ha:group.2 {
+						uuid=gR6xY80BfSWB9yRoDXwAAABw; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAB;
+						x=20000; y=32000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=Tx1plus
+							pinnum=A2
+							role=terminal
+						}
+					}
+					ha:group.3 {
+						uuid=gR6xY80BfSWB9yRoDXwAAABx; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAC;
+						x=20000; y=28000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=Tx1minus
+							pinnum=A3
+							role=terminal
+						}
+					}
+					ha:group.4 {
+						uuid=gR6xY80BfSWB9yRoDXwAAABy; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAD;
+						x=20000; y=24000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=CC1A
+							pinnum=A5
+							role=terminal
+						}
+					}
+					ha:group.5 {
+						uuid=gR6xY80BfSWB9yRoDXwAAABz; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAE;
+						x=20000; y=20000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=DplusA
+							pinnum=A6
+							role=terminal
+						}
+					}
+					ha:group.6 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB0; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAF;
+						x=20000; y=16000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=DminusA
+							pinnum=A7
+							role=terminal
+						}
+					}
+					ha:group.7 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB1; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAG;
+						x=20000; y=12000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=SBU1A
+							pinnum=A8
+							role=terminal
+						}
+					}
+					ha:group.8 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB2; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAH;
+						x=20000; y=8000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=Rx2minus
+							pinnum=A10
+							role=terminal
+						}
+					}
+					ha:group.9 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB3; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAI;
+						x=20000; y=4000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=Rx2plus
+							pinnum=A11
+							role=terminal
+						}
+					}
+					ha:group.10 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB4; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAJ;
+						x=20000; y=0;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=Tx2plus
+							pinnum=B2
+							role=terminal
+						}
+					}
+					ha:group.11 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB5; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAK;
+						x=20000; y=-4000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=Tx2minus
+							pinnum=B3
+							role=terminal
+						}
+					}
+					ha:group.12 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB6; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAL;
+						x=20000; y=-8000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=CC2B
+							pinnum=B5
+							role=terminal
+						}
+					}
+					ha:group.13 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB7; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAM;
+						x=20000; y=-12000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=DplusB
+							pinnum=B6
+							role=terminal
+						}
+					}
+					ha:group.14 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB8; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAN;
+						x=20000; y=-16000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=DminusB
+							pinnum=B7
+							role=terminal
+						}
+					}
+					ha:group.15 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB9; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAO;
+						x=20000; y=-20000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=SBU2B
+							pinnum=B8
+							role=terminal
+						}
+					}
+					ha:group.16 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB+; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAP;
+						x=20000; y=-24000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=Rx1minusB
+							pinnum=B10
+							role=terminal
+						}
+					}
+					ha:group.17 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAB/; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAQ;
+						x=20000; y=-28000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=Rx1plusB
+							pinnum=B11
+							role=terminal
+						}
+					}
+					ha:group.18 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACA; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAR;
+						x=-16000; y=36000; rot=90.000000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=VbusA4
+							pinnum=A4
+							role=terminal
+						}
+					}
+					ha:group.19 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACB; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAS;
+						x=-12000; y=36000; rot=90.000000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=VbusA9
+							pinnum=A9
+							role=terminal
+						}
+					}
+					ha:group.20 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACC; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAT;
+						x=-8000; y=36000; rot=90.000000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=VbusB4
+							pinnum=B4
+							role=terminal
+						}
+					}
+					ha:group.21 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACD; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAU;
+						x=-4000; y=36000; rot=90.000000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=VbusB9
+							pinnum=B9
+							role=terminal
+						}
+					}
+					ha:group.22 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACE; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAV;
+						x=-16000; y=-32000; rot=-90.000000; mirx=1;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=shldA
+							pinnum=SGND2
+							role=terminal
+						}
+					}
+					ha:group.23 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACF; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAX;
+						x=-12000; y=-32000; rot=-90.000000; mirx=1;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=shldB
+							pinnum=SGND1
+							role=terminal
+						}
+					}
+					ha:group.24 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACG; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAY;
+						x=-8000; y=-32000; rot=-90.000000; mirx=1;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=gndA1
+							pinnum=A1
+							role=terminal
+						}
+					}
+					ha:group.25 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACH; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAZ;
+						x=-4000; y=-32000; rot=-90.000000; mirx=1;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=gndA12
+							pinnum=A12
+							role=terminal
+						}
+					}
+					ha:group.26 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACI; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAa;
+						x=0; y=-32000; rot=-90.000000; mirx=1;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=gndB1
+							pinnum=B1
+							role=terminal
+						}
+					}
+					ha:group.27 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACJ; src_uuid=sIb9RtXRmDXN7pA5f1oAAAAb;
+						x=4000; y=-32000; rot=-90.000000; mirx=1;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../a.display/name%; }
+							ha:text.3 { x1=-500; y1=-2000; mirx=1; dyntext=1; stroke=term-secondary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=gndB12
+							pinnum=B12
+							role=terminal
+						}
+					}
+					ha:text.28 { x1=14000; y1=36000; dyntext=1; stroke=sym-primary; text=%../A.name%; floater=1; }
+				}
+				ha:attrib {
+					footprint=USB_C_Breakout_M.rf
+					name=USBC
+					role=symbol
+				}
+			}
+			ha:group.291 {
+				uuid=gR6xY80BfSWB9yRoDXwAAACO; src_uuid=iNOQfJpO6hT/HFDFGjoAAABm;
+				x=196000; y=88000;
+				li:objects {
+					ha:group.1 {
+						uuid=gR6xY80BfSWB9yRoDXwAAACP; src_uuid=iNOQfJpO6hT/HFDFGjoAAABn;
+						rot=90.000000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=-4000; y2=0; stroke=term-decor; }
+						}
+						ha:attrib {
+							ha:name = { value=1; prio=220; }
+							role=terminal
+						}
+					}
+					ha:line.2 { x1=-1500; y1=-5000; x2=1500; y2=-5000; stroke=sym-decor; }
+					ha:line.3 { x1=-500; y1=-6000; x2=500; y2=-6000; stroke=sym-decor; }
+					ha:line.4 { x1=-2500; y1=-4000; x2=2500; y2=-4000; stroke=sym-decor; }
+				}
+				ha:attrib {
+					-sym-copyright=(C) 2022 Tibor 'Igor2' Palinkas
+					-sym-license-dist=GPLv2+
+					-sym-license-use=Public Domain
+					-sym-source=sch-rnd default symbol lib
+					li:connect {
+						{1:GND}
+					}
+					role=symbol
+				}
+			}
+			ha:connection.297 {
 				li:conn {
+					/2/47/1/1
+					/2/35/8
+				}
+			}
+			ha:connection.298 {
+				li:conn {
+					/2/280/4/1
+					/2/62/1
+				}
+			}
+			ha:connection.299 {
+				li:conn {
+					/2/280/5/1
 					/2/277/3
-					/2/34/5/1
+				}
+			}
+			ha:connection.300 {
+				li:conn {
+					/2/280/6/1
+					/2/87/1
+				}
+			}
+			ha:connection.301 {
+				li:conn {
+					/2/280/7/1
+					/2/275/2
+				}
+			}
+			ha:connection.302 {
+				li:conn {
+					/2/280/12/1
+					/2/59/1
+				}
+			}
+			ha:connection.303 {
+				li:conn {
+					/2/280/15/1
+					/2/85/4
+				}
+			}
+			ha:connection.304 {
+				li:conn {
+					/2/280/18/1
+					/2/35/2
+				}
+			}
+			ha:connection.305 {
+				li:conn {
+					/2/280/19/1
+					/2/35/3
+				}
+			}
+			ha:connection.306 {
+				li:conn {
+					/2/280/20/1
+					/2/35/5
+				}
+			}
+			ha:connection.307 {
+				li:conn {
+					/2/280/21/1
+					/2/35/8
+				}
+			}
+			ha:group.317 {
+				uuid=gR6xY80BfSWB9yRoDXwAAACU;
+				li:objects {
+					ha:line.1 { x1=208000; y1=92000; x2=208000; y2=96000; stroke=wire; }
+					ha:line.4 { x1=200000; y1=92000; x2=200000; y2=92000; stroke=junction; }
+					ha:line.5 { x1=196000; y1=92000; x2=208000; y2=92000; stroke=wire; }
+					ha:line.7 { x1=204000; y1=92000; x2=204000; y2=96000; stroke=wire; }
+					ha:line.8 { x1=196000; y1=88000; x2=196000; y2=96000; stroke=wire; }
+					ha:line.9 { x1=204000; y1=92000; x2=204000; y2=92000; stroke=junction; }
+					ha:line.10 { x1=196000; y1=92000; x2=196000; y2=92000; stroke=junction; }
+					ha:line.11 { x1=200000; y1=92000; x2=200000; y2=96000; stroke=wire; }
+				}
+				ha:attrib {
+					ha:role = { value=wire-net; prio=0; }
+				}
+			}
+			ha:connection.318 {
+				li:conn {
+					/2/317/1
+					/2/280/24/1
+				}
+			}
+			ha:connection.319 {
+				li:conn {
+					/2/317/7
+					/2/280/25/1
+				}
+			}
+			ha:connection.320 {
+				li:conn {
+					/2/317/8
+					/2/280/27/1
+				}
+			}
+			ha:connection.321 {
+				li:conn {
+					/2/317/8
+					/2/291/1/1
+				}
+			}
+			ha:connection.322 {
+				li:conn {
+					/2/317/11
+					/2/280/26/1
+				}
+			}
+			ha:group.326 {
+				uuid=gR6xY80BfSWB9yRoDXwAAAC4; src_uuid=gR6xY80BfSWB9yRoDXwAAAC1;
+				x=224000; y=88000;
+				li:objects {
+					ha:text.1 { x1=0; y1=6000; dyntext=1; stroke=sym-primary; text=%../A.name%; floater=1; }
+					ha:group.2 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAC5; src_uuid=gR6xY80BfSWB9yRoDXwAAAC2;
+						mirx=1;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=1
+							role=terminal
+						}
+					}
+					ha:group.3 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAC6; src_uuid=gR6xY80BfSWB9yRoDXwAAAC3;
+						x=0; y=4000; mirx=1;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=4000; y2=0; stroke=term-decor; }
+							ha:text.2 { x1=1000; y1=0; dyntext=1; stroke=term-primary; text=%../A.name%; }
+						}
+						ha:attrib {
+							name=2
+							role=terminal
+						}
+					}
+					ha:polygon.4 {
+						li:outline {
+							ha:line { x1=0; y1=-2000; x2=0; y2=6000; }
+							ha:line { x1=0; y1=6000; x2=4000; y2=6000; }
+							ha:line { x1=4000; y1=6000; x2=4000; y2=-2000; }
+							ha:line { x1=4000; y1=-2000; x2=0; y2=-2000; }
+						}
+						stroke=sym-decor;
+					}
+				}
+				ha:attrib {
+					footprint=connector(1,2)
+					name=JMP3
+					role=symbol
+				}
+			}
+			ha:group.329 {
+				uuid=gR6xY80BfSWB9yRoDXwAAAC9; src_uuid=iNOQfJpO6hT/HFDFGjoAAABm;
+				x=216000; y=88000;
+				li:objects {
+					ha:group.1 {
+						uuid=gR6xY80BfSWB9yRoDXwAAAC+; src_uuid=iNOQfJpO6hT/HFDFGjoAAABn;
+						rot=90.000000;
+						li:objects {
+							ha:line.1 { x1=0; y1=0; x2=-4000; y2=0; stroke=term-decor; }
+						}
+						ha:attrib {
+							ha:name = { value=1; prio=220; }
+							role=terminal
+						}
+					}
+					ha:line.2 { x1=-1500; y1=-5000; x2=1500; y2=-5000; stroke=sym-decor; }
+					ha:line.3 { x1=-500; y1=-6000; x2=500; y2=-6000; stroke=sym-decor; }
+					ha:line.4 { x1=-2500; y1=-4000; x2=2500; y2=-4000; stroke=sym-decor; }
+				}
+				ha:attrib {
+					-sym-copyright=(C) 2022 Tibor 'Igor2' Palinkas
+					-sym-license-dist=GPLv2+
+					-sym-license-use=Public Domain
+					-sym-source=sch-rnd default symbol lib
+					li:connect {
+						{1:GND}
+					}
+					role=symbol
+				}
+			}
+			ha:group.331 {
+				uuid=gR6xY80BfSWB9yRoDXwAAAC/;
+				li:objects {
+					ha:line.1 { x1=220000; y1=88000; x2=216000; y2=88000; stroke=wire; }
+				}
+				ha:attrib {
+					ha:role = { value=wire-net; prio=0; }
+				}
+			}
+			ha:connection.332 {
+				li:conn {
+					/2/331/1
+					/2/326/2/1
+				}
+			}
+			ha:connection.336 {
+				li:conn {
+					/2/331/1
+					/2/329/1/1
+				}
+			}
+			ha:group.338 {
+				uuid=gR6xY80BfSWB9yRoDXwAAADB;
+				li:objects {
+					ha:line.1 { x1=216000; y1=92000; x2=216000; y2=96000; stroke=wire; }
+					ha:line.2 { x1=216000; y1=92000; x2=216000; y2=92000; stroke=junction; }
+					ha:line.3 { x1=212000; y1=96000; x2=212000; y2=92000; stroke=wire; }
+					ha:line.4 { x1=212000; y1=92000; x2=220000; y2=92000; stroke=wire; }
+				}
+				ha:attrib {
+					ha:role = { value=wire-net; prio=0; }
+				}
+			}
+			ha:connection.339 {
+				li:conn {
+					/2/338/1
+					/2/280/22/1
+				}
+			}
+			ha:connection.340 {
+				li:conn {
+					/2/338/3
+					/2/280/23/1
+				}
+			}
+			ha:connection.341 {
+				li:conn {
+					/2/338/4
+					/2/326/3/1
 				}
 			}
 		}
@@ -1466,8 +1622,8 @@ ha:cschem-sheet-v1 {
   li:sch-rnd-conf-v1 {
    ha:overwrite {
     ha:editor {
-     grids_idx = 1
-     grid = 2.0480 mm
+     grids_idx = 2
+     grid = 4.0960 mm
     }
    }
   }
