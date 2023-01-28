@@ -3104,7 +3104,7 @@ ha:pcb-rnd-board-v8 {
            x1=25.93mm; y1=13.19mm; x2=25.93mm; y2=10.65mm; thickness=10.0mil; clearance=0.0;
           }
           ha:text.11657 {
-           string=%a.parent.refdes%; x=25.48568mm; y=13.79948mm; scale=100; fid=0;
+           string=%a.parent.refdes%; x=25.59568mm; y=6.41948mm; scale=100; fid=0;
            ha:flags {
             dyntext=1
             floater=1
@@ -3950,6 +3950,22 @@ ha:pcb-rnd-board-v8 {
         }
         rot = 270.000000
        }
+       ha:text.12226 {
+        string={R2:   56k}; x=15.48mm; y=24.99mm; scale=100; fid=1;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        rot = 270.000000
+       }
+       ha:text.12228 {
+        string={R1:   22k}; x=17.46mm; y=25.01mm; scale=100; fid=1;
+        ha:flags {
+         clearline=1
+         onsolder=1
+        }
+        rot = 270.000000
+       }
       }
       color = {#000000}
     }
@@ -4479,7 +4495,6 @@ ha:pcb-rnd-board-v8 {
         string=erichVK5-suzy-Q-v1; x=385.0mil; y=0.318mm; scale=200; fid=1;
         ha:flags {
          clearline=1
-         selected=1
         }
         thickness = 10.0mil
         rot = 0.000000
@@ -9709,7 +9724,6 @@ ha:pcb-rnd-board-v8 {
     }
     cell_width = 1.333755mm
     cell_height = 1.608583mm
-    name = Hershey Sans 1 Stroke Font v1.0
    }
  }
 
@@ -9878,7 +9892,7 @@ ha:pcb-rnd-board-v8 {
    ha:design {
     line_thickness = 20.00 mil
     via_proto = 1
-    text_font_id = 0
+    text_font_id = 1
     text_scale = 100
     text_thickness = 0
     clearance = 20.00 mil
