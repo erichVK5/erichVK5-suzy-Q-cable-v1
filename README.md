@@ -12,4 +12,6 @@ The schematic in the FOSS schematic editor sch-rnd:
 
 The board is 48mm wide and 44mm high. Manufacture of the boards and testing is a work in progress.
 
-The board is designed to accommodate a readily available and inexpensive USB C 3.1 breakout board with a male connector, and two standard SUB type B connectors to allow assembly with simple through hole soldering.
+The board is designed to accommodate a readily available and inexpensive USB type C 3.1 breakout board with a male connector, and two standard USB type B connectors with kinked solder tabs (i.e. Molex 670687041) to allow assembly with simple through hole soldering, and avoiding the need for an expensive USB 3.1 cable.
+
+The 5V pins on the Type B USB cables are not connected to the USB type C VCC pins by default, in case different machines (with slightly different USB "5V" voltages) might be used for monitoring ttyUSB0 and ttyUSB1. The rails can be commoned up by putting links across JMP0 and/or JMP1. A link placed across JMP3 can be used to common the USB type C cable shield to the ground pins/ground network of the circuit.
