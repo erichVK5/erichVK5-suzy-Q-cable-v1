@@ -7,7 +7,7 @@ The prototype PCB in the FOSS layout editor pcb-rnd:
 
 The schematic in the FOSS schematic editor sch-rnd:
 
-![prototype schematic in sch-rnd](images/erichVK5-suzy-Q-v1.svg)
+![prototype schematic in sch-rnd](erichVK5-suzy-Q-v1.svg)
 
 
 
