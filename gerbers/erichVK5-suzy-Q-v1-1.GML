@@ -1,0 +1,35 @@
+G04 start of page 2 for group 9 layer_idx 6 *
+G04 Title: (unknown), global_outline *
+G04 Creator: pcb-rnd 3.1.0-dev *
+G04 CreationDate: 2023-01-29 01:50:49 UTC *
+G04 For: tonia *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions: 236220 236220 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNGLOBAL_BOUNDARY_UROUTE_9*%
+%ADD62C,0.0100*%
+G54D62*X169291Y169291D02*Y121063D01*
+X0Y51181D02*Y236220D01*
+X192913D01*
+Y192913D01*
+X169291Y169291D01*
+X192913Y97441D02*X169291Y121063D01*
+X0Y51181D02*X192913D01*
+Y97441D01*
+G04 start of page 3 for group 15 layer_idx 14 *
+G04 Title: (unknown), umech *
+G04 Creator: pcb-rnd 3.1.0-dev *
+G04 CreationDate: 2023-01-29 01:50:49 UTC *
+G04 For: tonia *
+G04 Format: Gerber/RS-274X *
+G04 PCB-Dimensions: 236220 236220 *
+G04 PCB-Coordinate-Origin: lower left *
+%MOIN*%
+%FSLAX25Y25*%
+%LNGLOBAL_MECH_UROUTE_15*%
+%ADD63C,0.1260*%
+G54D63*X178740Y90748D02*Y81496D01*
+Y208858D02*Y199606D01*
+M02*
