@@ -4744,7 +4744,7 @@ ha:pcb-rnd-board-v8 {
 
       li:objects {
        ha:line.10899 {
-        x1=0.0; y1=0.0; x2=48.0mm; y2=0.0; thickness=10.0mil; clearance=40.0mil;
+        x1=0.0; y1=0.0; x2=49.0mm; y2=0.0; thickness=10.0mil; clearance=40.0mil;
         ha:flags {
          clearline=1
         }
@@ -11049,10 +11049,10 @@ ha:pcb-rnd-board-v8 {
     grid = 100.00 um
     buffer_number = 4
     ha:view {
-     flip_x = 1
+     flip_x = 0
      flip_y = 0
     }
-    show_solder_side = 1
+    show_solder_side = 0
    }
    ha:plugins {
     ha:import_sch {
