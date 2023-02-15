@@ -19,3 +19,7 @@ Only one Type B USB port socket for ttyUSB0 needs to be installed if there is no
 The 5V pins on the Type B USB cables are not connected to the USB type C VCC pins by default, in case different machines (with slightly different USB "5V" voltages) might be used for monitoring ttyUSB0 and/or ttyUSB1. The 5V rails can be commoned to the USB VCC by putting links across JMP0 and/or JMP1. A link placed across SGNDM can be used to common the Male USB type C cable shield to the ground pins/ground network of the circuit; similarly, a link placed across SGNDF can be used to common a Female USB type C cable shield to the ground pins/ground network of the circuit.
 
 If the male (plug) version of the USB-C breakout shield is used, it should be attached to the top surface of the board. If the female (socket) version of the USB-C breakout shield is used, it should be attached to the bottom surface of the board, to achieve the required mirroring of pin connections effected by the reversed gender.
+
+Importantly, some of the commonly available Male USB-C breakout boards have silkscreen markings applicable to the Female socket version, so the pin numbering is actually back to front:
+
+![example breakout board](Typical-Male-USB-C-breakout.jpg)
