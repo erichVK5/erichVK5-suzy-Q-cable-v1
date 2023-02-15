@@ -20,6 +20,6 @@ The 5V pins on the Type B USB cables are not connected to the USB type C VCC pin
 
 If the male (plug) version of the USB-C breakout shield is used, it should be attached to the top surface of the board. If the female (socket) version of the USB-C breakout shield is used, it should be attached to the bottom surface of the board, to achieve the required mirroring of pin connections effected by the reversed gender.
 
-Importantly, some of the commonly available Male USB-C breakout boards have silkscreen markings applicable to the Female socket version, so the pin numbering is actually back to front:
+Importantly, some of the commonly available Male USB-C breakout boards have silkscreen markings applicable to the Female socket version, so the pin numbering is actually back to front, i.e. A2 should be A11, B11 should be B2, etc...:
 
 ![example breakout board](images/Typical-Male-USB-C-breakout.jpg)
