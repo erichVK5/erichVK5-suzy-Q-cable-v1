@@ -22,4 +22,4 @@ If the male (plug) version of the USB-C breakout shield is used, it should be at
 
 Importantly, some of the commonly available Male USB-C breakout boards have silkscreen markings applicable to the Female socket version, so the pin numbering is actually back to front:
 
-![example breakout board](Typical-Male-USB-C-breakout.jpg)
+![example breakout board](images/Typical-Male-USB-C-breakout.jpg)
