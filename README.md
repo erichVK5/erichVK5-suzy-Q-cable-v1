@@ -8,7 +8,7 @@ The prototype PCB in the FOSS layout editor pcb-rnd:
 
 The schematic in the FOSS schematic editor sch-rnd:
 
-![prototype schematic in sch-rnd](erichVK5-suzy-Q-v1-1.svg)
+![prototype schematic in sch-rnd](erichVK5-suzy-Q-v1-11.svg)
 
 The board is 49mm wide and 47mm high. The boards were manufactured by SEEED with the gerbers in this repository.
 
