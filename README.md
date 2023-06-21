@@ -48,9 +48,11 @@ This is the unit plugged into a Lenovo Ideapad chromebook Type C power socket
 
 ![assembled unit plugged in](images/assembled_unit_plugged_in.jpg)
 
+This is the unit plugged into the same Lenovo Ideapad chromebook Type C power socket with the type B to type A USB cable being used to bring ttyUSB0 to one of the spare type A USB ports on the Chromebook.
+
 ![assembled unit plugged in and connected to a Type A USB socket](images/assembled_unit_in_use.jpg)
 
-On the ideapad running Lubuntu 20.04, a terminal shows the results of the SuzyQ board being plugged in when the dmesg command is run, and also subsequent querying of available ttyUSB devices after insertion of the board comfirms that new ttyUSB devices are present, and importantly, ttyUSB0 is available to connect to for closed debugging:
+On the ideapad running Lubuntu 20.04, a terminal shows the results of the SuzyQ board being plugged in when the dmesg command is run, and also subsequent querying of available ttyUSB devices after insertion of the board confirms that new ttyUSB devices are present, and importantly, ttyUSB0 is available to connect to for closed debugging:
 
 ![terminal showing dmesg output when plugged in](images/dmesg.png)
 
@@ -76,4 +78,4 @@ For the price paid, and the hardware supplied, Chromebooks are very cost effecti
 
 # Cautionary note
 
-This SuzyQ adaptor has been tested successfully on a CR50 based Lenovo Ideapad Chromebook with a GeminiLake motherboard, but your mileage may vary on other devices, and there is always a possibility of harm being done to USB ports if specifications change or there are during assembly.   
+This SuzyQ adaptor has been tested successfully on a CR50 based Lenovo Ideapad Chromebook with a GeminiLake motherboard, but your mileage may vary on other devices, and there is always a possibility of harm being done to USB ports if specifications change or there are mistakes during assembly.   
