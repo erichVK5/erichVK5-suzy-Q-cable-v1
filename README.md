@@ -76,7 +76,11 @@ Turning off firmware signing on newer chromebooks will allow custom firmware suc
 
 # Chromebook functionality with GNU/Linux 
 
-For the price paid, and the hardware supplied, Chromebooks are very cost effective devices for STEM and coding generally, and are well suited to running GNU/linux distributions. A standard installation of a GNU/Linux distribution will easily fit even on the smallest 32GB SSDs/eMMCs in Chromebooks, and will allow coding and development in C, C++, python, awk, bash, java, javascript, scheme, LISP, fortran etc... with the free and easily installed compilers and editors. Chromebooks running GNU/Linux distributions are of course capable of browsing, word processing, email and all of the other things you'd expect of an operating system, including the use of the java version of minecraft. Like any computer, functionality will generally only be limited by the built in RAM of the Chromebook. Lighter weight distributions such as lubuntu are receommended for lower end machines with as little as 1-2GB RAM (this is being typed on a 2GB RAM, 32GB eMMC HP Chromebook running lubuntu 20.04). Extra storage is most easily added using SD cards if this is an issue on older Chromebooks. Give that old chromebook or windows laptop a new lease of life!!
+For the price paid, and the hardware supplied, Chromebooks are very cost effective devices for STEM and coding generally, and are well suited to running GNU/linux distributions. A standard installation of a GNU/Linux distribution will easily fit even on the smallest 32GB SSDs/eMMCs in Chromebooks, and will allow coding and development in C, C++, python, awk, bash, java, javascript, scheme, LISP, fortran etc... with the free and easily installed compilers and editors.
+
+Chromebooks running GNU/Linux distributions are of course capable of browsing, word processing, 3D CAD, driving a laser cutter, driving a 3D printer, email and all of the other things you'd expect of an operating system, including the use of the java version of minecraft. Like any computer, functionality will generally only be limited by the built in RAM of the Chromebook.
+
+Lighter weight distributions such as lubuntu are recommended for lower end machines with as little as 1-2GB RAM (this is being typed on a 2GB RAM, 32GB eMMC HP Chromebook running lubuntu 20.04). Extra storage is most easily added using SD cards if this is an issue on older Chromebooks. Give that old chromebook or windows laptop a new lease of life!!
 
 # Cautionary note
 
