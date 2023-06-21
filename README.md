@@ -44,11 +44,11 @@ If you look closely, the two rows of pins for the breakout board only need solde
 
 If a female Type C breakout board is used, it will need to be attached to the underside, to effect the necessary inversion of pins. It is best to use the Type C male breakout board, as Type C <-> Type C USB cables with all of the necessary wires are quite expensive.
 
-This is the unit plugged into a Lenovo Ideapad chromebook Type C power socket
+This is the unit plugged into a Lenovo Ideapad chromebook Type C power socket. The PCB does obstruct one of the adjacent Type A USB ports.
 
 ![assembled unit plugged in](images/assembled_unit_plugged_in.jpg)
 
-This is the unit plugged into the same Lenovo Ideapad chromebook Type C power socket with the type B to type A USB cable being used to bring ttyUSB0 to one of the spare type A USB ports on the Chromebook.
+This is the unit plugged into the same Lenovo Ideapad chromebook Type C power socket with the type B to type A USB cable being used to bring ttyUSB0 to one of the spare type A USB ports on the Chromebook. An interposed type A hub may be needed if the Chromebook is lacking sufficient type A ports for ttyUSB0 use as well as USB stick, ttyUSB1, use etc... but this has not been tested.
 
 ![assembled unit plugged in and connected to a Type A USB socket](images/assembled_unit_in_use.jpg)
 
