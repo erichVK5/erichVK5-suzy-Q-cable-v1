@@ -84,4 +84,10 @@ Lighter weight distributions such as lubuntu are recommended for lower end machi
 
 # Cautionary note
 
-This SuzyQ adaptor has been tested successfully on a CR50 based Lenovo Ideapad Chromebook with a GeminiLake motherboard, but your mileage may vary on other devices, and there is always a possibility of harm being done to USB ports if specifications change or there are mistakes during assembly.   
+This SuzyQ adaptor has been tested successfully on a CR50 based Lenovo Ideapad Chromebook with a GeminiLake motherboard, but your mileage may vary on other devices, and there is always a possibility of harm being done to USB ports if specifications change or there are mistakes during assembly.
+
+# Hardware License
+
+The hardware is licensed under the TAPR Open Hardware License
+
+https://tapr.org/the-tapr-open-hardware-license/
