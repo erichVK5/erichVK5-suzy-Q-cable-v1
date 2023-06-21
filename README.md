@@ -40,7 +40,7 @@ This is a view of the underside with the Type C Male breakout board mounted on t
 
 ![assembled unit underside](images/assembled_unit_underside.jpg)
 
-If you look closely, the two rows of pins for the breakout board only need soldering where the silks screen has a circle around the pin.
+If you look closely, the two rows of pins for the breakout board only need soldering where the silkscreen has a circle around the pin.
 
 If a female Type C breakout board is used, it will need to be attached to the underside, to effect the necessary inversion of pins. It is best to use the Type C male breakout board, as Type C <-> Type C USB cables with all of the necessary wires are quite expensive.
 
