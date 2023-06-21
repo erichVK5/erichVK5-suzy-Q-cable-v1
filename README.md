@@ -16,7 +16,7 @@ The board is designed to accommodate a readily available and inexpensive USB typ
 
 Only one Type B USB port socket for ttyUSB0 needs to be installed if there is no need for access to the debugging console on ttyUSB1.
 
-The 5V pins on the Type B USB cables are not connected to the USB type C VCC pins by default, in case different machines (with slightly different USB "5V" voltages) might be used for monitoring ttyUSB0 and/or ttyUSB1. The 5V rails can be commoned to the USB VCC by putting links across JMP0 and/or JMP1. A link placed across SGNDM can be used to common the Male USB type C cable shield to the ground pins/ground network of the circuit; similarly, a link placed across SGNDF can be used to common a Female USB type C cable shield to the ground pins/ground network of the circuit, but commmoning of shields to ground was not found to be necessary for the prototype to work.
+The 5V pins on the Type B USB cables are not connected to the USB type C VCC pins by default, in case different machines (with slightly different USB "5V" voltages) might be used for monitoring ttyUSB0 and/or ttyUSB1. The 5V rails can be commoned to the USB VCC by putting links or a low value resistor across JMP0 and/or JMP1. A link placed across SGNDM can be used to common the Male USB type C cable shield to the ground pins/ground network of the circuit; similarly, a link placed across SGNDF can be used to common a Female USB type C cable shield to the ground pins/ground network of the circuit, but commmoning of shields to ground was not found to be necessary for the prototype to work.
 
 If the male (plug) version of the USB-C breakout shield is used, it should be attached to the top surface of the board. If the female (socket) version of the USB-C breakout shield is used, it should be attached to the bottom surface of the board, to achieve the required mirroring of pin connections effected by the reversed gender.
 
@@ -28,7 +28,9 @@ Importantly, some of the commonly available Male USB-C breakout boards have silk
 
 Jumpers or wire links are needed to common the 5V rails of the Type C connector and the Type B USB connector for the board to be recognised as plugged in. These links could be replaced with a low value resistor if it is being plugged into a different machine, to minimse the risk of current surges between differing power rails.
 
-There is not much to assembly, other than a type B USB socket for ttyIUSB0, the Type C breakout board, the jumper link, and ideally a two row header to simplify soldering of the type C breakout board to the SuzyQ board.
+There is not much to assembly, other than a type B USB socket for ttyIUSB0, the Type C breakout board, ideally a two row header to simplify soldering of the type C breakout board to the SuzyQ board, and the JMP0 jumper link. R1 is a 22k resistor, and R2 is a 56k resistor. These values tell the  USB C host what voltage levels are to provided on the USB C Vcc rail.
+
+The ttyUSB1 socket and JMP1 link are not needed for routine firmware reflashing.
 
 This is the top view with the Type C Male breakout board mounted on the top surface
 
@@ -48,13 +50,9 @@ This is the unit plugged into a Lenovo Ideapad chromebook Type C power socket
 
 ![assembled unit plugged in and connected to a Type A USB socket](images/assembled_unit_in_use.jpg)
 
-On the ideapad running Lububntu 20.04, a terminal shows the results of the SuzyQ board being plugged in when the dmesg command is run:
+On the ideapad running Lububntu 20.04, a terminal shows the results of the SuzyQ board being plugged in when the dmesg command is run, and also querying available ttyUSB devices after insertion of the board comfirms that new ttyUSB devices are present, and importantly, ttyUSB0 is available to connect to for closed debugging:
 
 ![terminal showing dmesg output when plugged in](images/dmesg.png)
-
-On the same ideapad, querying available ttyUSB devices after insertion of the board comfirms that new ttyUSB devices are present, and importantly, ttyUSB0 is available to connect to  for closed debugging:
-
-![terminal showing newly available ttyUSB devices](images/interrogating-ttyUSB0.png)
 
 The ttyUSB0 device can be connected to under linux with a serial terminal such as minicom, which will need configuring to use ttyUSB0 for serial IO. The user account, if running linux, will also need to be a member of dialout to access this port.
 
@@ -66,9 +64,13 @@ A more detailed HELP-LIST command can be also be issued:
 
 ![terminal showing HELP-LIST command on ttyUSB0](images/HELP-LIST.png)
 
+On the same ideapad, the board ID is queried, confirming it is a Geminilake motherboard using CR50 firmware signing:
+
+![terminal showing newly available ttyUSB devices](images/interrogating-ttyUSB0.png)
+
 For those intending to turn off firmware signing on CR50 chromebooks or similar, the latest instructions are available at https://mrchromebox.tech/
 
-Turning off firmware signing on newer chromebooks will allow custom firmware such as that availablae from mrchromebox to be installed which will allow alternative operating systems such as GNU/linux to be installed, rather than the default ChromeOS.
+Turning off firmware signing on newer chromebooks will allow custom firmware such as that available from mrchromebox to be installed which will allow alternative operating systems such as GNU/linux to be installed, rather than the default ChromeOS.
 
 For the price paid, and the hardware supplied, Chromebooks are very cost effective devices for STEM and coding generally, and are well suited to running GNU/linux distributions.
 
