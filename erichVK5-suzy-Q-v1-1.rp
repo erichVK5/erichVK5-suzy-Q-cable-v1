@@ -4707,38 +4707,8 @@ ha:pcb-rnd-board-v8 {
       color = {#cd3700}
     }
 
-    ha:int-sig2 {
-     lid=4
-     group=7
-     ha:combining {     }
-
-      ha:attributes {
-        {pcb-rnd::key::vis}={<Key>l; Shift<Key>i}
-        {pcb-rnd::key::select}={<Key>l; <Key>i}
-      }
-
-      li:objects {
-      }
-      color = {#548b54}
-    }
-
-    ha:int-sig1 {
-     lid=5
-     group=5
-     ha:combining {     }
-
-      ha:attributes {
-        {pcb-rnd::key::vis}={<Key>l; Shift<Key>o}
-        {pcb-rnd::key::select}={<Key>l; <Key>o}
-      }
-
-      li:objects {
-      }
-      color = {#8b7355}
-    }
-
     ha:outline {
-     lid=6
+     lid=4
      group=9
      ha:combining {     }
 
@@ -4796,7 +4766,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:bottom-silk {
-     lid=7
+     lid=5
      group=12
      ha:combining { auto=1;     }
 
@@ -5105,7 +5075,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:top-silk {
-     lid=8
+     lid=6
      group=1
      ha:combining { auto=1;     }
 
@@ -5635,7 +5605,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:top-paste {
-     lid=9
+     lid=7
      group=0
      ha:combining { auto=1;     }
 
@@ -5645,7 +5615,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:top-mask {
-     lid=10
+     lid=8
      group=2
      ha:combining { sub=1; auto=1;     }
 
@@ -5655,7 +5625,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:bottom-mask {
-     lid=11
+     lid=9
      group=11
      ha:combining { sub=1; auto=1;     }
 
@@ -5665,7 +5635,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:bottom-paste {
-     lid=12
+     lid=10
      group=13
      ha:combining { auto=1;     }
 
@@ -5675,7 +5645,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:slot-plated {
-     lid=13
+     lid=11
      group=14
      ha:combining { auto=1;     }
 
@@ -5685,7 +5655,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:slot-unplated {
-     lid=14
+     lid=12
      group=15
      ha:combining { auto=1;     }
 
@@ -5707,7 +5677,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:top-assy {
-     lid=15
+     lid=13
      group=16
      ha:combining {     }
 
@@ -5717,7 +5687,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:bot-assy {
-     lid=16
+     lid=14
      group=17
      ha:combining {     }
 
@@ -5727,7 +5697,7 @@ ha:pcb-rnd-board-v8 {
     }
 
     ha:fab {
-     lid=17
+     lid=15
      group=18
      ha:combining { auto=1;     }
 
@@ -10876,10 +10846,10 @@ ha:pcb-rnd-board-v8 {
      li:conn { R1-2; USBC_M-A5; USBC_F-A5;     }
      }
      ha:anon_net_22 {
-     li:conn { USBC_F-SGND2; USBC_F-SGND1; JMP4-2;     }
+     li:conn { USBC_F-SGND2; USBC_F-SGND1; SGNDF-2;     }
      }
     ha:anon_net_18 {
-    li:conn { USBC_M-SGND2; USBC_M-SGND1; JMP3-2;    }
+    li:conn { USBC_M-SGND2; USBC_M-SGND1; SGNDM-2;    }
     }
      ha:CC2B {
      li:conn { R2-2; USBC_M-B5; USBC_F-B5;     }
@@ -10887,12 +10857,12 @@ ha:pcb-rnd-board-v8 {
     ha:Vcc {
     li:conn { USBC_M-A4; USBC_M-A9; USBC_M-B4; USBC_M-B9; R1-1; R2-1; USBC_F-A4; USBC_F-A9; USBC_F-B4; USBC_F-B9; JMP1-1; JMP0-1;    }
     }
-     ha:DplusA {
-     li:conn { ttyUSB1-3; USBC_M-A6; USBC_F-A6;     }
-     }
-    ha:GND {
-    li:conn { ttyUSB1-5; ttyUSB1-6; ttyUSB1-4; USBC_M-A1; USBC_M-A12; USBC_M-B12; USBC_M-B1; USBC_F-A1; USBC_F-A12; USBC_F-B12; USBC_F-B1; ttyUSB0-4; ttyUSB0-5; ttyUSB0-6; JMP3-1; JMP4-1;    }
-    }
+       ha:DplusA {
+       li:conn { ttyUSB1-3; USBC_M-A6; USBC_F-A6;       }
+       }
+      ha:GND {
+      li:conn { ttyUSB1-5; ttyUSB1-6; ttyUSB1-4; USBC_M-A1; USBC_M-A12; USBC_M-B12; USBC_M-B1; USBC_F-A1; USBC_F-A12; USBC_F-B12; USBC_F-B1; ttyUSB0-4; ttyUSB0-5; ttyUSB0-6; SGNDM-1; SGNDF-1;      }
+      }
      ha:SBU1A {
      li:conn { ttyUSB0-3; USBC_M-A8; USBC_F-A8;     }
      }
@@ -10915,17 +10885,17 @@ ha:pcb-rnd-board-v8 {
    ha:0 {
     name = top_paste
     ha:type { top=1; paste=1;    }
-    li:layers { 9;    }
+    li:layers { 7;    }
    }
    ha:1 {
     name = top_silk
     ha:type { silk=1; top=1;    }
-    li:layers { 8;    }
+    li:layers { 6;    }
    }
    ha:2 {
     name = top_mask
     ha:type { top=1; mask=1;    }
-    li:layers { 10;    }
+    li:layers { 8;    }
    }
    ha:3 {
     name = top_copper
@@ -10943,7 +10913,7 @@ ha:pcb-rnd-board-v8 {
    ha:5 {
     name = Intern
     ha:type { copper=1; intern=1;    }
-    li:layers { 5;    }
+    li:layers {     }
    }
    ha:6 {
     name = grp_6
@@ -10956,7 +10926,7 @@ ha:pcb-rnd-board-v8 {
    ha:7 {
     name = Intern
     ha:type { copper=1; intern=1;    }
-    li:layers { 4;    }
+    li:layers {     }
    }
    ha:8 {
     name = grp_8
@@ -10969,7 +10939,7 @@ ha:pcb-rnd-board-v8 {
    ha:9 {
     name = global_outline
     ha:type { boundary=1;    }
-    li:layers { 6;    }
+    li:layers { 4;    }
     purpose = uroute
    }
    ha:10 {
@@ -10980,34 +10950,34 @@ ha:pcb-rnd-board-v8 {
    ha:11 {
     name = bottom_mask
     ha:type { bottom=1; mask=1;    }
-    li:layers { 11;    }
+    li:layers { 9;    }
    }
    ha:12 {
     name = bottom_silk
     ha:type { silk=1; bottom=1;    }
-    li:layers { 7;    }
+    li:layers { 5;    }
    }
    ha:13 {
     name = bottom_paste
     ha:type { bottom=1; paste=1;    }
-    li:layers { 12;    }
+    li:layers { 10;    }
    }
    ha:14 {
     name = pmech
     ha:type { mech=1;    }
-    li:layers { 13;    }
+    li:layers { 11;    }
     purpose = proute
    }
    ha:15 {
     name = umech
     ha:type { mech=1;    }
-    li:layers { 14;    }
+    li:layers { 12;    }
     purpose = uroute
    }
    ha:16 {
     name = top_assy
     ha:type { top=1; doc=1;    }
-    li:layers { 15;    }
+    li:layers { 13;    }
     ha:attributes {
      init-invis=1
     }
@@ -11016,7 +10986,7 @@ ha:pcb-rnd-board-v8 {
    ha:17 {
     name = bot_assy
     ha:type { bottom=1; doc=1;    }
-    li:layers { 16;    }
+    li:layers { 14;    }
     ha:attributes {
      init-invis=1
     }
@@ -11025,7 +10995,7 @@ ha:pcb-rnd-board-v8 {
    ha:18 {
     name = fab
     ha:type { top=1; doc=1;    }
-    li:layers { 17;    }
+    li:layers { 15;    }
     ha:attributes {
      init-invis=1
     }
@@ -11058,7 +11028,7 @@ ha:pcb-rnd-board-v8 {
     ha:import_sch {
      import_fmt = sch-rnd
      li:args {
-      $(rc.path.design)/erichVK5-suzy-Q-v1-1.rs  
+      $(rc.path.design)/erichVK5-suzy-Q-v1-11.rs  
      }
     }
    }
